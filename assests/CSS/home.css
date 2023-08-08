@@ -2,6 +2,10 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: brown;
     overflow: hidden;
+    background-image: url(https://e0.pxfuel.com/wallpapers/518/556/desktop-wallpaper-smooth-nature-autumn-leaves-blur-branch-foliage.jpg);
+    background-position: fixed;
+    background-size: cover;
+    
 }
 h1{
     text-align: center;
@@ -10,10 +14,23 @@ h1{
 #main{
     height: 80%;
     width:80%;
-    background-color: rgb(246, 251, 198);
+    background-color: rgb(217, 225, 139);
     margin-left: 10%;
-
+    border: 2px white solid;
+    border-radius: 2vh;
 }
+#main:hover{
+    animation: glow 2s infinite alternate;
+    box-shadow: 0 0 8px #f2cd75, 0 0 16px #f8e461, 0 0 24px #efb971;
+}
+@keyframes glow {
+    from {
+        box-shadow: 0 0 8px #f2cd75, 0 0 16px #f8e461, 0 0 25px #efb971;
+    }
+    to {
+        box-shadow: 0 0 16px #f2cd75, 0 0 16px #f8e461, 0 0 25px #efb971;
+    }
+  }
 #desc{
     border:0px;
     height: 100%;
@@ -27,8 +44,6 @@ h1{
 }
 #descDiv:hover{
     background-color: rgb(225, 241, 251);
-    border: 1px black solid;
-    border-radius: 2px;
 }
 #categoryDiv{
     display: inline-block;
@@ -38,7 +53,7 @@ h1{
     margin-bottom: 5px;
 }
 #categoryDiv:hover{
-    background-color: rgb(253, 237, 215);
+    background-color: rgb(243, 224, 160);
 }
 form p{
     margin-left: -100px;
@@ -49,12 +64,6 @@ form p{
  width: 20vh;
 }
 
-#category:hover{
-    background-color: rgb(63, 63, 63);
-    color: white;
-    border: 1px black solid;
-    border-radius: 2px;
-}
 #dateDiv{
     display: inline-block;
     width:46%;
@@ -63,16 +72,11 @@ form p{
     height: 50px;
 }
 #dateDiv:hover{
-   background-color: rgb(253, 231, 241);
+   background-color: rgb(243, 224, 160);
    
 }
 
-#date:hover{
-    background-color: rgb(63, 63, 63);
-    color: white;
-    border: 1px black solid;
-    border-radius: 2px;
-}
+
 label{
     display: block;
     font-weight: 600;
@@ -94,13 +98,17 @@ button{
     background-color: rgb(78, 116, 81);
 }
 .fa-trash{
-    color: rgb(232, 75, 75);
+    color: rgb(251, 84, 84);
 }
 #listItems{
     margin: 5px;
     list-style:none;
-    border-bottom:2px gray solid;
+    padding: 1vh;
+    border-bottom:2px rgb(169, 134, 4) solid;
    
+}
+#listItems h3{
+    color: brown;
 }
 h4{
     margin: 2px;
@@ -121,5 +129,5 @@ h4{
     display: inline-block;
 }
 #taskList{
-    background-color:bisque;
+    background-color:rgb(244, 217, 119);
 }
