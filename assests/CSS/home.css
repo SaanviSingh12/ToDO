@@ -1,0 +1,125 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: brown;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    font-family:cursive;
+}
+#main{
+    height: 80%;
+    width:80%;
+    background-color: rgb(246, 251, 198);
+    margin-left: 10%;
+
+}
+#desc{
+    border:0px;
+    height: 100%;
+    width: 98%;
+
+}
+#descDiv{
+    height:40%;
+    width:100%;
+    margin: 0px;  
+}
+#descDiv:hover{
+    background-color: rgb(225, 241, 251);
+    border: 1px black solid;
+    border-radius: 2px;
+}
+#categoryDiv{
+    display: inline-block;
+    width: 53%;
+    height: fit-content;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#categoryDiv:hover{
+    background-color: rgb(253, 237, 215);
+}
+form p{
+    margin-left: -100px;
+    display: inline;
+    font-size: smaller;
+}
+#categoryChoice{
+ width: 20vh;
+}
+
+#category:hover{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border: 1px black solid;
+    border-radius: 2px;
+}
+#dateDiv{
+    display: inline-block;
+    width:46%;
+    height:fit-content !important;
+    text-align: center;  
+    height: 50px;
+}
+#dateDiv:hover{
+   background-color: rgb(253, 231, 241);
+   
+}
+
+#date:hover{
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border: 1px black solid;
+    border-radius: 2px;
+}
+label{
+    display: block;
+    font-weight: 600;
+   
+}
+form div{
+    margin-top: 5px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    margin-top: 30px;
+}
+#addTask{
+    background-color:rgb(176, 249, 176);
+   
+}
+#addTask:hover{
+    background-color: rgb(78, 116, 81);
+}
+.fa-trash{
+    color: rgb(232, 75, 75);
+}
+#listItems{
+    margin: 5px;
+    list-style:none;
+    border-bottom:2px gray solid;
+   
+}
+h4{
+    margin: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+#listItemCat{
+    background-color: rgb(186, 202, 255); height: 40px; width: 100px; display: inline-block;
+    margin-left: 55%;
+    text-align: center;
+    font-weight: 500;
+    border: 1px gray solid;
+    border-radius: 20px;
+    margin-top: 1px;
+}
+
+#taskList p{
+    display: inline-block;
+}
+#taskList{
+    background-color:bisque;
+}
