@@ -1,7 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: brown;
-    overflow: hidden;
     background-image: url(https://e0.pxfuel.com/wallpapers/518/556/desktop-wallpaper-smooth-nature-autumn-leaves-blur-branch-foliage.jpg);
     background-position: fixed;
     background-size: cover;
@@ -14,6 +13,7 @@ h1{
 #main{
     height: 80%;
     width:80%;
+    top: 5vh;
     background-color: rgb(217, 225, 139);
     margin-left: 10%;
     border: 2px white solid;
@@ -103,9 +103,13 @@ button{
 #listItems{
     margin: 5px;
     list-style:none;
-    padding: 1vh;
-    border-bottom:2px rgb(169, 134, 4) solid;
-   
+    padding: 1.5vh;
+    margin-left: 6%;
+    border:2px rgb(169, 134, 4) solid;
+    background-color:rgb(244, 217, 119);
+    border-radius: 2vh;
+    width:80%;
+    
 }
 #listItems h3{
     color: brown;
@@ -128,6 +132,6 @@ h4{
 #taskList p{
     display: inline-block;
 }
-#taskList{
-    background-color:rgb(244, 217, 119);
+ol, ul {
+    padding-left: 0rem !important;
 }
