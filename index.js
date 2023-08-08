@@ -3,7 +3,7 @@ const db=require('./config/mongoose');
 const ToDO=require('./models/TodoList');
 
 const app=express();
-const port=4040;
+const port=8080 || 8000;
 
 app.set('view engine','ejs');
 app.set('views','./views');
